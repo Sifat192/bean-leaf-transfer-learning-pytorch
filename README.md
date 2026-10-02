@@ -42,6 +42,10 @@ Images are loaded using `torchvision.datasets.ImageFolder`.
 
 In the frozen-parameter experiment, the full model remains in training mode during training. BatchNorm running statistics can therefore change even though the backbone parameters are frozen.
 
+## Project Architecture
+
+![Bean leaf classification project architecture](bean_leaf_transfer_learning_workflow.png)
+
 ## Shared Preprocessing
 
 The same preprocessing is used for all three models:
