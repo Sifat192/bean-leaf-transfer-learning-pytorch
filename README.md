@@ -115,10 +115,7 @@ The custom CNN and GoogLeNet differ in architecture as well as initialization. T
 | Path | Description |
 |---|---|
 | `notebooks/bean_leaf_transfer_learning.ipynb` | Complete notebook with saved outputs |
-| `assets/validation_comparison.png` | Comparison of validation learning curves |
-| `results/metrics.csv` | Recorded metrics for all three models |
 | `requirements.txt` | Python dependencies |
-| `.gitignore` | Excludes data, credentials, caches and model weights |
 | `README.md` | Project documentation |
 
 ## How to Run
